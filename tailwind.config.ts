@@ -44,6 +44,10 @@ export default {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
 				},
+				'wellness-purple': {
+					DEFAULT: 'hsl(var(--wellness-purple))',
+					foreground: 'hsl(var(--wellness-purple-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -62,6 +66,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-wellness': 'var(--gradient-wellness)',
+				'gradient-energy': 'var(--gradient-energy)',
+				'gradient-mindful': 'var(--gradient-mindful)',
+				'gradient-hero': 'var(--gradient-hero)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
